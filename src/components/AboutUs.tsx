@@ -10,13 +10,13 @@ const AboutUs = () => {
           
           <div className="bg-gradient-to-r from-pizza-cream to-white p-8 md:p-12 rounded-2xl shadow-xl">
             <p className="font-inter text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
-              Na <span className="font-bold text-pizza-red">Dona Melitta Pizzeria</span>, cada pizza é uma obra de arte culinária. 
-              Combinamos a tradição italiana com o carinho brasileiro, criando sabores únicos que conquistam corações.
+              Na <span className="font-bold text-pizza-red">Dona Melitta Pizzeria</span>, cada pizza e esfirra é uma obra de arte culinária. 
+              Combinamos a tradição italiana e árabe com o carinho brasileiro, criando sabores únicos que conquistam corações.
             </p>
             
             <p className="font-inter text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
-              Nossa massa é preparada diariamente com ingredientes selecionados, e nosso molho especial é o segredo 
-              que faz da nossa pizza uma experiência inesquecível.
+              Nossa massa é preparada diariamente com ingredientes selecionados, e nossos molhos e temperos especiais 
+              fazem das nossas pizzas e esfirras uma experiência inesquecível.
             </p>
             
             <div className="flex justify-center items-center space-x-8 mt-8">

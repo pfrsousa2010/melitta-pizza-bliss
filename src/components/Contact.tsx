@@ -20,7 +20,7 @@ const Contact = () => {
             Faça seu Pedido Agora!
           </h2>
           <p className="font-inter text-xl text-pizza-cream max-w-2xl mx-auto">
-            Entre em contato conosco e saboreie a melhor pizza da região
+            Entre em contato conosco e saboreie as melhores pizzas e esfirras da região
           </p>
         </div>
 
@@ -95,7 +95,7 @@ const Contact = () => {
                   
                   <div className="text-center pt-4">
                     <p className="font-inter text-sm text-gray-600">
-                      🍕 Entrega rápida • Pagamento na entrega
+                      🍕 🥟 Entrega rápida • Pagamento na entrega
                     </p>
                   </div>
                 </div>
@@ -107,10 +107,10 @@ const Contact = () => {
           <div className="text-center">
             <div className="bg-white/10 backdrop-blur rounded-2xl p-8">
               <h3 className="font-playfair text-3xl font-bold text-white mb-4">
-                Sua Fome Pede Dona Melitta! 🍕
+                Sua Fome Pede Dona Melitta! 🍕🥟
               </h3>
               <p className="font-inter text-pizza-cream text-lg mb-6">
-                Não perca tempo, faça seu pedido agora e experimente o melhor sabor da região!
+                Não perca tempo, faça seu pedido agora e experimente as melhores pizzas e esfirras da região!
               </p>
               <Button 
                 onClick={handleWhatsAppClick}

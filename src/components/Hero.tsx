@@ -34,14 +34,14 @@ const Hero = () => {
 
           {/* Main Headline */}
           <h1 className="font-playfair text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in drop-shadow-lg">
-            A Verdadeira Pizza<br />
-            <span className="text-pizza-cream">Artesanal</span> que<br />
+            Pizzas & Esfirras<br />
+            <span className="text-pizza-cream">Artesanais</span> que<br />
             Você Merece!
           </h1>
 
           {/* Subtitle */}
           <p className="font-inter text-xl md:text-2xl text-pizza-cream mb-8 animate-fade-in drop-shadow-md" style={{animationDelay: '0.3s'}}>
-            Sabor inesquecível em cada fatia
+            Sabor inesquecível em cada fatia e em cada mordida
           </p>
 
           {/* CTA Buttons */}
