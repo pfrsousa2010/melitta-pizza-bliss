@@ -26,7 +26,7 @@ const Hero = () => {
           {/* Logo */}
           <div className="mb-8 animate-fade-in">
             <img 
-              src="/lovable-uploads/828fb5c6-8923-483f-ad22-566fc1590595.png" 
+              src="/lovable-uploads/9485b1dd-49a5-4023-8dff-1333579d37f6.png" 
               alt="Dona Melitta Pizzeria Logo" 
               className="w-80 h-auto mx-auto drop-shadow-2xl hover:scale-105 transition-transform duration-300"
             />
