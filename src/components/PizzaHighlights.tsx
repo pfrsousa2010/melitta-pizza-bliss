@@ -53,43 +53,50 @@ const PizzaHighlights = () => {
 
         {/* Products Images Section */}
         <div className="mt-20">
-          <h3 className="font-playfair text-3xl md:text-4xl font-bold text-pizza-darkRed text-center mb-12">
-            Nossos Deliciosos Produtos
-          </h3>
+          <div className="text-center mb-12">
+            <img 
+              src="/lovable-uploads/9485b1dd-49a5-4023-8dff-1333579d37f6.png" 
+              alt="Dona Melitta Pizzeria Logo" 
+              className="w-64 h-auto mx-auto mb-6 drop-shadow-lg"
+            />
+            <h3 className="font-playfair text-3xl md:text-4xl font-bold text-pizza-darkRed">
+              As Mais Pedidas
+            </h3>
+          </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-64 bg-gradient-to-br from-pizza-red to-pizza-darkRed flex items-center justify-center">
-                <div className="text-white text-center">
+                <div className="text-white text-center p-4">
                   <div className="text-6xl mb-2">🍕</div>
-                  <p className="font-playfair text-xl font-semibold">Pizza Margherita</p>
-                  <p className="font-inter text-sm opacity-90">Molho, mussarela, tomate, manjericão</p>
+                  <p className="font-playfair text-xl font-semibold mb-2">Pizza Supreme</p>
+                  <p className="font-inter text-sm opacity-90 leading-relaxed">Molho artesanal, mussarela, tomate, parmesão e manjericão</p>
                 </div>
               </div>
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-64 bg-gradient-to-br from-pizza-green to-green-800 flex items-center justify-center">
-                <div className="text-white text-center">
+                <div className="text-white text-center p-4">
                   <div className="text-6xl mb-2">🍕</div>
-                  <p className="font-playfair text-xl font-semibold">Pizza Especial</p>
-                  <p className="font-inter text-sm opacity-90">Com nossos ingredientes premium</p>
+                  <p className="font-playfair text-xl font-semibold mb-2">Calabresa com Catupiry</p>
+                  <p className="font-inter text-sm opacity-90 leading-relaxed">Molho artesanal, mussarela, calabresa, catupiry, azeitona e orégano</p>
                 </div>
               </div>
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-64 bg-gradient-to-br from-amber-600 to-amber-800 flex items-center justify-center">
-                <div className="text-white text-center">
+                <div className="text-white text-center p-4">
                   <div className="text-6xl mb-2">🥟</div>
-                  <p className="font-playfair text-xl font-semibold">Esfirra de Carne</p>
-                  <p className="font-inter text-sm opacity-90">Massa macia com recheio temperado</p>
+                  <p className="font-playfair text-xl font-semibold mb-2">Esfirra de Calabresa</p>
+                  <p className="font-inter text-sm opacity-90 leading-relaxed">Massa macia com recheio de calabresa temperada</p>
                 </div>
               </div>
             </div>
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-64 bg-gradient-to-br from-orange-600 to-red-700 flex items-center justify-center">
-                <div className="text-white text-center">
+                <div className="text-white text-center p-4">
                   <div className="text-6xl mb-2">🥟</div>
-                  <p className="font-playfair text-xl font-semibold">Esfirra de Frango</p>
-                  <p className="font-inter text-sm opacity-90">Sabor caseiro irresistível</p>
+                  <p className="font-playfair text-xl font-semibold mb-2">Esfirra de Frango Catupiry</p>
+                  <p className="font-inter text-sm opacity-90 leading-relaxed">Frango desfiado com catupiry cremoso</p>
                 </div>
               </div>
             </div>
