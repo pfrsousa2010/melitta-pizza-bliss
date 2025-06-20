@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="text-center">
           <div className="mb-4">
             <img 
-              src="/lovable-uploads/828fb5c6-8923-483f-ad22-566fc1590595.png" 
+              src="/lovable-uploads/9485b1dd-49a5-4023-8dff-1333579d37f6.png" 
               alt="Dona Melitta Pizzeria Logo" 
               className="w-32 h-auto mx-auto opacity-90"
             />
