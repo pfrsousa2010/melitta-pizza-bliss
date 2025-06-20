@@ -1,5 +1,8 @@
-
 const Footer = () => {
+  const handleDeveloperEmail = () => {
+    window.open("mailto:microfocuspro@gmail.com", "_blank");
+  };
+
   return (
     <footer className="bg-pizza-darkRed py-8">
       <div className="container mx-auto px-4">
@@ -37,6 +40,19 @@ const Footer = () => {
             >
               Instagram
             </a>
+          </div>
+
+          {/* Crédito da empresa desenvolvedora */}
+          <div className="mt-6 pt-4 border-t border-pizza-cream/20">
+            <p className="font-inter text-pizza-cream/60 text-xs">
+              Desenvolvido por{" "}
+              <button
+                onClick={handleDeveloperEmail}
+                className="text-pizza-cream hover:text-white font-semibold underline transition-colors duration-300 hover:no-underline"
+              >
+                Micro Focus Pro
+              </button>
+            </p>
           </div>
         </div>
       </div>
