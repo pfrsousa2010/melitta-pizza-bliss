@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           
           <p className="font-inter text-pizza-cream mb-2">
-            © 2024 Dona Melitta Pizzeria. Todos os direitos reservados.
+            © 2025 Dona Melitta Pizzeria. Todos os direitos reservados.
           </p>
           
           <p className="font-inter text-pizza-cream/70 text-sm">
