@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // Adicione a linha 'base' aqui:
-  base: "/melitta-pizza-bliss/", 
+  base: "/melitta-pizza-bliss", 
 
   server: {
     host: "::",
