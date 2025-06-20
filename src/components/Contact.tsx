@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, MapPin, Instagram, Clock } from "lucide-react";
@@ -62,7 +61,7 @@ const Contact = () => {
                     <Clock className="h-6 w-6 text-pizza-red" />
                     <div>
                       <p className="font-inter font-semibold text-gray-800">Horário</p>
-                      <p className="font-inter text-gray-600">Consulte pelo WhatsApp</p>
+                      <p className="font-inter text-gray-600">De quarta a segunda das 19h às 23h</p>
                     </div>
                   </div>
                 </div>
@@ -97,6 +96,30 @@ const Contact = () => {
                     <p className="font-inter text-sm text-gray-600">
                       🍕 🥟 Entrega rápida • Pagamento na entrega
                     </p>
+                    
+                  </div>
+
+                  {/* Métodos de Pagamento */}
+                  <div className="pt-4 border-t border-gray-200">
+                    <p className="font-inter font-semibold text-gray-800 mb-3 text-center">Formas de Pagamento</p>
+                    <div className="grid grid-cols-4 gap-2">
+                      <div className="text-center">
+                        <p className="font-inter text-xs font-semibold text-gray-700 mb-1">VISA</p>
+                        <i className="fa-brands fa-cc-visa text-3xl text-blue-800"></i>
+                      </div>
+                      <div className="text-center">
+                        <p className="font-inter text-xs font-semibold text-gray-700 mb-1">Mastercard</p>
+                        <i className="fa-brands fa-cc-mastercard text-3xl text-red-600"></i>
+                      </div>
+                      <div className="text-center">
+                        <p className="font-inter text-xs font-semibold text-gray-700 mb-1">PIX</p>
+                        <i className="fa-brands fa-pix text-3xl text-green-500"></i>
+                      </div>
+                      <div className="text-center">
+                        <p className="font-inter text-xs font-semibold text-gray-700 mb-1">Dinheiro</p>
+                        <i className="fa-solid fa-money-bill-1 text-3xl text-green-600"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </CardContent>
