@@ -2,17 +2,19 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
+import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // Adicione a linha 'base' aqui:
-  base: "/melitta-pizza-bliss", 
+  base: "/melitta-pizza-bliss/", 
 
   server: {
     host: "::",
     port: 8080,
   },
   plugins: [
+    vue(),
     react(),
     mode === "development" &&
       componentTagger(),
