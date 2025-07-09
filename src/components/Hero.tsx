@@ -4,7 +4,7 @@ import { Phone, Instagram } from "lucide-react";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5543988448558?text=Olá! Gostaria de fazer um pedido na Dona Melitta Pizzeria!", "_blank");
+    window.open("https://wa.me/554330254600?text=Olá! Dona Melitta Pizzeria, gostaria de fazer um pedido!", "_blank");
   };
 
   const handleInstagramClick = () => {
@@ -66,8 +66,8 @@ const Hero = () => {
 
           {/* Contact Info */}
           <div className="mt-12 text-pizza-cream animate-fade-in" style={{animationDelay: '0.9s'}}>
-            <p className="font-inter text-lg mb-2">📍 Rua das Siriemas, 162</p>
-            <p className="font-inter text-lg">📱 (43) 9 8844-8558</p>
+            <p className="font-inter text-lg mb-2">📍 Rua Débora, 30</p>
+            <p className="font-inter text-lg">📱 (43) 3025-4600</p>
           </div>
         </div>
       </div>

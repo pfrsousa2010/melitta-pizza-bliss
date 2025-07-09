@@ -4,7 +4,7 @@ import { Phone, MapPin, Instagram, Clock } from "lucide-react";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5543988448558?text=Olá! Gostaria de fazer um pedido na Dona Melitta Pizzeria!", "_blank");
+    window.open("https://wa.me/554330254600?text=Olá! Dona Melitta Pizzeria, gostaria de fazer um pedido!", "_blank");
   };
 
   const handleInstagramClick = () => {
@@ -37,7 +37,7 @@ const Contact = () => {
                     <Phone className="h-6 w-6 text-pizza-red" />
                     <div>
                       <p className="font-inter font-semibold text-gray-800">WhatsApp</p>
-                      <p className="font-inter text-gray-600">(43) 9 8844-8558</p>
+                      <p className="font-inter text-gray-600">(43) 3025-4600</p>
                     </div>
                   </div>
                   
@@ -45,8 +45,35 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-pizza-red" />
                     <div>
                       <p className="font-inter font-semibold text-gray-800">Endereço</p>
-                      <p className="font-inter text-gray-600">Rua das Siriemas, 162</p>
+                      <p className="font-inter text-gray-600">Rua Débora, 30</p>
                     </div>
+                  </div>
+
+                  {/* Mapa e botão Google Maps */}
+                  <div className="mt-4 flex flex-col items-start">
+                    <iframe
+                      title="Mapa Dona Melitta Pizzeria"
+                      src="https://www.google.com/maps?q=-23.3161441,-51.1423422&z=17&output=embed"
+                      width="100%"
+                      height="180"
+                      style={{ border: 0, borderRadius: '12px', marginBottom: '12px', minWidth: '200px' }}
+                      allowFullScreen={true}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                    <Button
+                      asChild
+                      className="bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-6 py-2 shadow-md transition-all duration-300 flex items-center gap-2"
+                    >
+                      <a
+                        href="https://www.google.com/maps/place/Dona+Melitta+Pizzeria/@-23.3161728,-51.1424789,20.75z/data=!4m15!1m8!3m7!1s0x94eb4379fa85d435:0x4031cfb60d60f05e!2sR.+D%C3%A9bora,+30+-+Interlagos,+Londrina+-+PR,+86039-330!3b1!8m2!3d-23.3161253!4d-51.142347!16s%2Fg%2F11rg66xrj4!3m5!1s0x94eb43ed9f82931d:0x8bb17a67b28a02a4!8m2!3d-23.3161441!4d-51.1423422!16s%2Fg%2F11ty4pvhv5?entry=ttu"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <MapPin className="h-5 w-5 mr-2" />
+                        Me leve até lá
+                      </a>
+                    </Button>
                   </div>
                   
                   <div className="flex items-center space-x-3">
@@ -61,7 +88,7 @@ const Contact = () => {
                     <Clock className="h-6 w-6 text-pizza-red" />
                     <div>
                       <p className="font-inter font-semibold text-gray-800">Horário</p>
-                      <p className="font-inter text-gray-600">De quarta a segunda das 19h às 23h</p>
+                      <p className="font-inter text-gray-600">De quarta a segunda das 1830h às 23h</p>
                     </div>
                   </div>
                 </div>

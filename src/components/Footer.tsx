@@ -20,12 +20,12 @@ const Footer = () => {
           </p>
           
           <p className="font-inter text-pizza-cream/70 text-sm">
-            Rua das Siriemas, 162 • (43) 9 8844-8558
+            Rua Débora, 30 • (43) 3025-4600
           </p>
           
           <div className="mt-4 flex justify-center space-x-6">
             <a 
-              href="https://wa.me/5543988448558" 
+              href="https://wa.me/554330254600" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-pizza-cream hover:text-white transition-colors duration-300"
