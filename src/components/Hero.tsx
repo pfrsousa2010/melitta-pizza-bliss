@@ -39,13 +39,6 @@ const Hero = () => {
             Você Merece!
           </h1>
 
-          {/* Texto de inauguração */}
-          <div className="mb-6 animate-fade-in">
-            <span className="inline-block bg-yellow-300 text-pizza-darkRed font-bold text-lg md:text-2xl px-6 py-2 rounded-full shadow-lg border-2 border-yellow-400">
-              Inauguração sábado, dia 12/07/2025!
-            </span>
-          </div>
-
           {/* Subtitle */}
           <p className="font-inter text-xl md:text-2xl text-pizza-cream mb-8 animate-fade-in drop-shadow-md" style={{animationDelay: '0.3s'}}>
             Sabor inesquecível em cada fatia e em cada mordida
@@ -56,7 +49,6 @@ const Hero = () => {
             <Button 
               onClick={handleWhatsAppClick}
               className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-2xl hover:shadow-green-500/25 transition-all duration-300 hover:scale-105"
-              disabled
             >
               <Phone className="mr-2 h-5 w-5" />
               Faça seu Pedido Agora!

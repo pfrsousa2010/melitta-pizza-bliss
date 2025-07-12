@@ -106,7 +106,6 @@ const Contact = () => {
                   <Button 
                     onClick={handleWhatsAppClick}
                     className="w-full bg-green-600 hover:bg-green-700 text-white py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-green-500/25 transition-all duration-300 hover:scale-105"
-                    disabled
                   >
                     <Phone className="mr-3 h-6 w-6" />
                     Pedir pelo WhatsApp
@@ -166,7 +165,6 @@ const Contact = () => {
               <Button 
                 onClick={handleWhatsAppClick}
                 className="bg-pizza-cream text-pizza-darkRed hover:bg-white px-12 py-4 text-xl font-bold rounded-full shadow-2xl hover:shadow-white/25 transition-all duration-300 hover:scale-110"
-                disabled
               >
                 PEDIR AGORA! 🚀
               </Button>
